@@ -385,7 +385,7 @@ function initModals() {
       modalTitle.textContent = `${videoTitle} — ${client}`;
       modalBody.innerHTML = `
         <div style="text-align: center; padding: 40px 20px;">
-          <div style="width: 72px; height: 72px; border-radius: 50%; background: rgba(16, 185, 129, 0.15); color: #10B981; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 20px;">▶</div>
+          <div style="width: 72px; height: 72px; border-radius: 50%; background: rgba(0, 140, 255, 0.15); color: #008CFF; display: flex; align-items: center; justify-content: center; font-size: 2rem; margin: 0 auto 20px;">▶</div>
           <h3 style="font-size: 1.5rem; margin-bottom: 10px; color: #FFFFFF;">${videoTitle}</h3>
           <p style="color: #94A3B8; max-width: 480px; margin: 0 auto 24px;">This video was written and strategized by Mohammed Akther S for ${client}. Watch the live published reel on Instagram below.</p>
           <div style="display: flex; gap: 12px; justify-content: center; flex-wrap: wrap;">
