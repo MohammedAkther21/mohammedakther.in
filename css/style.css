@@ -1634,37 +1634,7 @@ a {
   line-height: 1.6;
 }
 
-/* 11. Testimonials Placeholder */
-.testimonials-placeholder-wrapper {
-  background: var(--bg-card);
-  border: 1px dashed rgba(255, 255, 255, 0.15);
-  border-radius: var(--radius-xl);
-  padding: 64px 32px;
-  text-align: center;
-  max-width: 760px;
-  margin: 0 auto;
-}
-
-.testimonials-icon {
-  font-size: 2.5rem;
-  color: var(--primary-light);
-  margin-bottom: 16px;
-}
-
-.testimonials-placeholder-title {
-  font-size: 1.5rem;
-  color: #FFFFFF;
-  margin-bottom: 8px;
-}
-
-.testimonials-placeholder-sub {
-  font-size: 0.9375rem;
-  color: var(--text-muted);
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-/* 12. Contact Section */
+/* 11. Contact Section */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -2082,12 +2052,8 @@ textarea.form-control {
   background-color: var(--bg-main); /* #061426 */
 }
 
-#testimonials.section {
-  background-color: var(--bg-surface); /* #0A1B32 */
-}
-
 #contact.section {
-  background-color: var(--bg-main); /* #061426 */
+  background-color: var(--bg-surface); /* #0A1B32 */
 }
 
 .footer {
